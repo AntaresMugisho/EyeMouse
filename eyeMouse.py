@@ -76,10 +76,9 @@ while True:
         # Manage drag and drop
         # ...
 
-    cv2.imshow("EyeMouse - Antares", frame)
-    #cv2.waitKey(1)
+    cv2.imshow("EyeMouse", frame)
 
-    # press q to exit
+    # Press q to exit
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
